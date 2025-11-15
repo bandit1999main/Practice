@@ -1,0 +1,27 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery-container{
+    background-color: #ffffff;
+    width: 400px;
+    margin: 20px auto; /*for box in middle*/
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #cccccc;
+}
+
+#mainImage{
+    width: 100%; /*ทำให้รูปเต็มกล่อง*/
+    height: 400px;
+    object-fit: cover; /*ทำให้รูปพอดี ไม่ยืด*/
+    border-radius: 4px;
+    cursor: pointer; /*ทำให้เมาส์เป็นรูปมมือ*/ 
+}
+
+.button-container button:hover{
+    background-color: #09b7ec; /*สีตอนคลิกเมาส์*/
+}
+
